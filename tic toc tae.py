@@ -145,8 +145,6 @@ def minimax(board, key, maxi):
                     best_score = score
         return best_score
 
-
-
 while not check_win():
     bot_move()
     player_move()
